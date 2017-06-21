@@ -1,0 +1,100 @@
+html, body, h1, h2, h3, ul, ol, li, p {
+	margin: 0;
+	padding: 0;
+}
+section section ul,
+section section ol,
+section section p,
+section section div {
+    padding-left:100px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+	color: #000;
+	font: 14px Arial, Helvetica, sans-serif;
+}
+
+
+body > header{
+    float: left;
+    width: 30%;
+    min-width: 250px;
+    height: 100%;
+    text-align: center;
+    vertical-align: top;
+    background-color: #FFC935;
+    box-sizing: border-box;
+    padding-top: 2%;
+}
+header div {
+    width: 188px;
+    height: 188px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 7px solid #FFF;
+}
+header div img {
+    width: 100%;
+}
+header h1 {font-size: 3em; width: 100%; margin: 20px 0; padding: 10px 0; background-color: #383838; color: #FFF;}
+header p {font-size: 1.5em; margin: 20px 0;}
+
+
+body > section {
+    float: left;
+    width: 65%;
+    margin-top: 20px;
+    box-sizing: border-box;
+
+}
+body > section > section h2 {
+    background-color: #383838;
+    color: #FFF;
+    padding: 10px 10px 10px 95px;
+    background-repeat: no-repeat;
+}
+body > section > section h2:after {
+    content: "";
+    width: 0; height: 0;
+    position: absolute;
+    right: 5%;
+    margin-top: -10px;
+    border-right: 22px solid #FFF;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+}
+
+
+section > section p,
+section > section ol,
+section > section ul {padding-top: 20px; padding-bottom: 40px;}
+section > section > ul > li p {margin: 10px 0 15px 20px; padding: 0;}
+
+
+ol, ul {list-style-image: url(../images/list.jpg)}
+
+/*imgens dos topicos*/
+.sobre > h2 {
+    background-image: url(../images/sobre.jpg);
+}
+.formacao > h2 {
+    background-image: url(../images/formacao.jpg);
+}
+.profissional > h2 {
+    background-image: url(../images/profissional.jpg);
+}
+.habilidades > h2 {
+    background-image: url(../images/habilidades.jpg);
+}
+.idiomas > h2 {
+    background-image: url(../images/idiomas.jpg);
+}
+.experiencias > h2 {
+    background-image: url(../images/experiencias.jpg);
+}
